@@ -1,0 +1,379 @@
+/*selector body universal para colocar estilos de letras*/
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*selector header universal para colocar sombra sobre header*/
+header{
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*selector clase .contenedor-hd para aplicar estilo a la parte superior de la pagina*/
+.contenedor-hd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*selector clase .logi para aplicar espacios en la parte superior*/
+.logo{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+/*selector clase .banner-head para mandar al fondo la imagen*/
+.banner-head{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    z-index: -1;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+/*selector universal al nav y su contenido para modificar estilos de navegación*/
+
+nav ul li{
+    list-style: none;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 150%;
+    color: white;
+
+}
+
+/*selector clase .login para modificar estilo de login*/
+
+.login{
+    display: flex;
+    border: 2px solid  #5e62f7 ;
+    border-radius: 10%;
+    justify-content: center;
+    width: 8%;
+    margin: 10px;
+    background-color:  #5e62f7 ;
+}
+
+/*selector clase .titulo-hd para modificar estilo de titulo del header*/
+
+.titulo-hd{
+    position: relative;
+    left: 30%;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid white  ;
+    width: 50%;
+    margin-top: 5%;
+    font-size: 170%;
+}
+
+/*selector universal span para modificar partes del titulo del header*/
+span{
+    color:  #5e62f7 ;
+}
+
+/*selector clase .parrafo-hd para modificar estilos del parrafo header*/
+
+.parrafo-hd{
+    margin-left:30%;
+    text-align: center;
+    width: 50%;
+    height:1%;
+    color: white;
+    font-size: 120%;
+
+}
+
+/*selector clase .boton-hd este modifica el tamaño y la funcion del boton principal del header*/
+
+.boton-hd{
+    border: 2px solid white;
+    padding: 1%;
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+    border-radius: 4%;
+    font-size: 170%;
+}
+
+.boton-hd a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*selector clase .parte-arriba este es la parte superior del main donde se posicionan la imagenes del main*/
+
+.parte-arriba{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+/*selector clase .foto-service modifica las dimensiones de las imagenes*/
+
+.foto-service{
+    width:90%;
+    height:80%;    
+}
+
+/*selector clase .titulo-mn-top1 modifica el estilo de las letras y atributos de la parte superior del main, este se divide en tres clases*/
+
+.titulo-mn-top1{
+    position: absolute;
+    border: 2px solid white;
+    text-align: center;
+    left: 15%;
+    bottom: 18%;
+    font-size: 250%;
+    padding:10px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.titulo-mn-top2{
+    position: absolute;
+    border: 2px solid white;
+    text-align: center;
+    left: 45%;
+    bottom: 18%;
+    font-size: 250%;
+    padding:10px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.titulo-mn-top3{
+    position: absolute;
+    border: 2px solid white;
+    text-align: center;
+    left: 75%;
+    bottom: 18%;
+    font-size: 250%;
+    padding:10px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*selector clase .parte-media este hace parte de la mitad de la pagina donde se encuentra imagen y texto */
+.parte-media{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/*selector clase .imgaboutus este cambia las dimensiones de la imagen */
+
+.imgaboutus{
+    width:100%;
+    height:100%;
+}
+
+/*selector clase .parrafo-mn-media este cambia las dimensiones del texto*/
+
+.parrafo-mn-media{
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd7f9 ;
+}
+
+/*selector clase .titulo-mn-media mejora los atributos del titulo en el main*/
+
+.titulo-mn-media{
+    position: relative;
+    left: 5%;
+    font-size: 300%;
+    color:  #5e62f7 ;
+}
+
+/*selector clase .lorem-mn-medi este mejora los atributos del parrafo en el main*/
+
+.lorem-mn-media{
+    position: relative;
+    top:20%;
+    left: 5%;
+}
+
+/*selector clase .boton-mn-media este cambia los atributos del boton en el main*/
+
+.boton-mn-media{
+    position: relative;
+    top: 70%;
+    left: 5%;
+    border: 2px solid  #5e62f7 ;
+    width: 40%;
+    background-color:  #5e62f7 ;
+    color: white;
+    padding-left: 2%;
+    border-radius: 5%;
+    font-size: 110%;
+}
+
+/* A partir de este espacio  se mejoran los atributos de la galeria de imagenes de la página web*/
+
+.titulo-mn-baja{
+    position: relative;
+    left: 5%;
+    font-size: 180%;
+}
+
+/* selector que divide las diferentes imagenes de la galeria*/
+.parte-baja{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-auto-rows: 300px;
+    gap: 1%;
+    margin-left: 5%;
+    
+}
+
+/* selectores que proporcionan dimensiones y espacios ocupados por las imagenes*/
+
+.galeria-parte-baja1{
+    grid-row: 1/3;
+}
+
+
+
+.galeria-parte-baja2{
+    grid-row:1/3 ;
+}
+
+.galeria-parte-baja3{
+    grid-column: 3/4;
+}
+
+.galeria-parte-baja4{
+    grid-column: 2/4;
+}
+
+.galeria-parte-baja5{
+    grid-row: 2/3;
+}
+
+.galeria-parte-baja6{
+    grid-column: 4/4;
+    grid-row: 2/3;
+}
+
+.foto1{
+    width:100%;
+    height:150%;
+}
+
+.foto2{
+    width:100%;
+    height:100%;
+}
+
+.foto3{
+    width:200%;
+    height:100%;
+}
+
+.foto4{
+    width:100%;
+    height:100%;
+}
+
+.foto5{
+    width:100%;
+    height:100%;
+}
+
+.foto6{
+    width:100%;
+    height:200%;
+}
+
+/*A partir de este espacio se mejoran los atributos de la seccion que esta compuesto por articulos*/
+
+.titulo-sc{
+    text-align: center;
+    font-size: 170%;
+}
+
+section{
+    background-color:  #d7f0f9 ;
+}
+
+/*Selector de la clase .contenedor-sc da las dimensiones para los diferentes articulos de la pagina*/
+
+.contenedor-sc{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5%;
+}
+
+/* El selector.articles-sc:hoover da efecto sombra a los diferentes articulos*/
+
+.articles-sc:hover{
+    border-radius: 2%;
+    background-color: gray;
+    box-shadow: gray;
+    transition: 0.5s;
+}
+
+.related-contest{
+    position: relative;
+    border-bottom: 2px solid gray;
+    margin-right: 50%;
+    font-weight: bold;
+    margin-bottom: 5%;
+
+}
+
+.contest{
+    width: 100%;
+    height: 70%;
+}
+
+/*Modifica los atributos de los botones de los articulos*/
+
+.boton-sc{
+    text-align: center;
+    border: 2px solid  #5e62f7 ;
+    color:  #5e62f7 ;
+    margin: 1%;
+    width: 80%;
+    border-radius: 8%;
+}
+
+/*Los diferentes selectores a continuación dan atributos a la parte del footer de la página*/
+
+.contenedor-ft{
+    display: grid;
+    grid-template-columns: 40% 20% 20%;
+    gap: 10%;
+    margin-top:5%;
+    background-color: #5e62f7 ;
+    color: white;
+}
+
+
+.pies1{
+    margin-left: 5%;
+}
+
+.logo-ft{
+    margin: 3%;
+}
+
+.copright{
+    position: absolute;
+    text-align: center;
+    background-color:  #5e62f7 ;
+    width: 100%;
+    color: white    ;
+
+}
+
+.titulos-ft{
+    font-size: 120%;
+    font-weight: bold;
+}
+
